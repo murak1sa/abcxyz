@@ -70,7 +70,7 @@ local function TextSetColor(instance)
 end
 
 local ScreenGui = Create("ScreenGui", CoreGui, {
-  Name = "Ka HUB library"
+  Name = "REDz HUB library"
 })
 
 ScreenFind = CoreGui:FindFirstChild(ScreenGui.Name)
@@ -101,7 +101,7 @@ local ListLayout = Create("UIListLayout", Menu_Notifi, {
 })
 
 function MakeNotifi(Configs)
-  local Title = Configs.Title or "Ka HUB"
+  local Title = Configs.Title or "REDz HUB"
   local text = Configs.Text or "Notificação"
   local timewait = Configs.Time or 5
   
@@ -189,8 +189,8 @@ function MakeNotifi(Configs)
 end
 
 function MakeWindow(Configs)
-  local title = Configs.Hub.Title or "Ka HUB"
-  local Anim_Title = Configs.Hub.Animation or "by : Ka"
+  local title = Configs.Hub.Title or "REDz HUB"
+  local Anim_Title = Configs.Hub.Animation or "by : redz9999"
   
   local KeySystem = Configs.Key.KeySystem or false
   local KeyTitle = Configs.Key.Title or "Key System"
